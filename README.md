@@ -1,10 +1,14 @@
-# reformaflightbuddy
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec feugiat massa. Vestibulum vestibulum vulputate sapien ultrices lobortis. Morbi id eros viverra sem vestibulum dictum. Cras eget accumsan lectus, eu condimentum nibh. Donec bibendum metus id lorem ornare, in vulputate nulla efficitur. Praesent aliquam mattis scelerisque. Fusce nisl metus, molestie id enim quis, bibendum elementum est. Duis lobortis, est sit amet sodales venenatis, justo massa accumsan felis, vel mollis libero turpis in eros. Vivamus sed aliquam nibh. Aenean aliquam libero at gravida placerat. Curabitur scelerisque gravida mauris, sit amet rutrum orci eleifend sit amet.
+# FlightBuddy Safety/Launch Controller Documentation
 
-Sed viverra feugiat diam, quis bibendum sapien sagittis non. Donec dictum ornare tellus, ut porttitor arcu posuere euismod. Maecenas maximus urna non justo tempus varius. Duis id tellus sed turpis malesuada euismod. Duis fringilla, sapien et auctor dignissim, purus ligula maximus ante, nec varius est velit quis leo. Morbi vitae efficitur diam. Phasellus malesuada nisl lectus, dapibus tristique libero cursus sagittis.
+## Descrição do Projeto
+O FlightBuddy é um controlador de segurança e lançamento projetado para garantir a operação segura de sistemas que exigem controle rigoroso. Esta documentação descreve as funcionalidades e a arquitetura do sistema, bem como o plano de testes.
 
-In bibendum luctus felis vehicula bibendum. Nam lobortis ligula eu fermentum luctus. Aenean lacus turpis, imperdiet quis risus nec, auctor pharetra tortor. Pellentesque dignissim neque in massa mattis porttitor. Sed bibendum, enim id pretium porttitor, justo odio imperdiet nunc, ut commodo risus nisl id ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla posuere posuere mauris in egestas. Integer tristique vehicula mi, sit amet aliquam libero varius sit amet. Donec nibh nisl, malesuada id aliquam sit amet, placerat nec diam. Sed est lorem, facilisis at pharetra quis, egestas non mi. Etiam lobortis sapien id leo vulputate convallis. Nullam lorem sem, molestie ut pulvinar ac, gravida id velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+## Funcionalidades
+- **Visão do Dashboard**: Interface somente para visualização, sem controle direto.
+- **Controle com Botões Físicos**: Mecanismos físicos para comandos manuais.
+- **Módulo de Segurança**: Prioridades analógicas com enfoque na segurança.
 
-Nam sed molestie magna. Nam nisl magna, tempus sed pretium et, sagittis eget arcu. In hac habitasse platea dictumst. Integer rutrum nibh ut libero volutpat, a sodales urna euismod. Maecenas scelerisque, nisi eget blandit vehicula, dolor ex tincidunt lectus, eget mollis nisi ipsum et mi. Praesent scelerisque tellus leo, ac efficitur sapien sodales et. Aenean ante risus, mattis a mi cursus, condimentum posuere orci. Proin et velit risus. Nam a varius elit. Integer consequat, quam nec imperdiet lacinia, ante lorem scelerisque diam, sed venenatis libero leo eget ligula. Suspendisse sodales lacinia mollis. Duis tempor quam at ipsum tempus, sit amet ultricies elit tincidunt. Donec aliquam in libero sed porttitor. Pellentesque ut nibh sed libero pretium aliquam sed vitae lacus. Nulla sed velit ultricies quam mattis viverra. Vestibulum maximus dictum metus vel mattis.
-
-Nulla rutrum tincidunt lorem, a condimentum mi imperdiet at. Duis ac fringilla tellus. Nulla gravida feugiat lorem ac condimentum. Praesent scelerisque orci ac ex iaculis efficitur. Donec bibendum nulla lectus, id ultricies turpis semper a. Vivamus pharetra leo nulla, at mattis urna porttitor vitae. Ut aliquam mauris quis risus sodales suscipit a sed nibh. 
+## Prioridades
+- **P0**: Abort manual.
+- **P1**: E-STOP (parada de emergência).
+- **P2**: Detecção de anomalias (estranhas).
